@@ -20,20 +20,6 @@ console.log(car["year"])
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // let person = {
 //     Name: "Abdirashid",
 //     Age: 25,
