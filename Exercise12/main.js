@@ -13,35 +13,6 @@ for(let i = 0; i < fruits.length; i++ ){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const students = ["Alice", "Bob", "Charlie"];
 // for (let i = 0; i < students.length; i++) {
 //     console.log("Hello, " + students[i] + "!");
