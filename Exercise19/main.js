@@ -7,41 +7,6 @@ array.forEach(item =>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // const fruits = ["apple", "banana", "cherry"];
 // fruits.forEach(fruit => {
 //     console.log("I like " + fruit);
