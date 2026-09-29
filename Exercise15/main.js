@@ -7,11 +7,18 @@ const people = [
 
 console.log("properties and value of each person: ")
 
-for (const person of people) {
-  for (const property in person) {
-    console.log(`${property}: ${person[property]}`);
-  }
+// for (const person of people) {
+//   for (const property in person) {
+//     console.log(`${property}: ${person[property]}`);
+//   }
 
-  console.log("----------");
+//   console.log("----------");
+// }
+
+
+for ( const qof of people){
+    for (const shaqsi in qof){
+        console.log(shaqsi + ": " + qof[shaqsi])
+    }
+    console.log("----------");
 }
-
