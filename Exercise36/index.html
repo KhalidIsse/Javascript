@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>Color picker</h1>
+
+        <section class="picker">
+            <div id="colorPreview" class="preview" aria-label="Color preview"></div>
+
+            <div class="controls">
+                <label class="picker-label" for="colorPicker">Choose a color</label>
+                <input type="color" id="colorPicker" value="#3a5f8b">
+
+                <label class="picker-label" for="colorValue">Current color</label>
+                <div class="copy-row">
+                    <input type="text" id="colorValue" readonly>
+                    <button type="button" id="copyButton">Copy</button>
+                </div>
+                <p id="copyStatus" class="status" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section class="history">
+            <div class="history-head">
+                <h2>History</h2>
+                <button type="button" id="clearHistoryButton" class="secondary">Clear history</button>
+            </div>
+            <ul id="colorHistory"></ul>
+            <p id="emptyMessage" class="empty">No colors yet. Pick one to start your history.</p>
+        </section>
+    </main>
+
+    <script src="colorPicker.js"></script>
+</body>
+</html>
